@@ -1,0 +1,4 @@
+Tengo que corregir:
+-Tipografias, evitar reescribir cuando en main.css ya esta que poppins es la fuente general.
+-Revisar que las medidas sean relativas
+-

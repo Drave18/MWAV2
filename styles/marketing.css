@@ -1,0 +1,140 @@
+.hero{
+    width: 100%;
+    height: 21.3125rem;
+    background: linear-gradient(180deg, #1A0084 0%, rgba(67, 0, 177, 0.85) 56.5%, rgba(67, 0, 177, 0.85) 99.5%);
+    margin-top: 76px;
+    padding-top: 118px;
+    padding-left: 79px;
+}
+
+.hero h1{
+    color: #FFF;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hero h2{
+    color: #FFF;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+.introduction{
+    margin-top:4.31rem;
+}
+.introduction h3{
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.introduction p{
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 2.31rem;
+}
+
+.wrapper {
+    margin-top:5.20rem;
+}
+
+.bento-image{
+    width: 18.125rem;
+    height: 15rem;
+    background-color: #FAFAFA;
+    padding-top:3rem;
+    padding-left: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4375rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    float: left;
+}
+.bento-image img{
+    width: 3.93188rem;
+    height: 3.94888rem;
+}
+
+.text-box{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-box p{
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-left: 4rem;
+
+}
+
+.purplebutton{
+    width: 23.3125rem;
+    height: 2.9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6.25rem;
+    background: #6100FF;
+    padding: 0.7rem 1.5rem;
+    color: #FFF;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.5625rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.purplebutton img{
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: 1rem;
+}
+.services-info .wrapper:nth-child(4) {
+    margin-top: 0;
+}
+.centerbutton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5.8rem;
+    margin-bottom: 7.7rem;
+}
+
+.why-us{
+    margin-top: 6.56rem;
+}
+
+.why-us .container h3{
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.why-us .container p{
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 50.31rem;
+}
+
+
+
+
+@media screen and (max-width:1046px){
+    .bento-image{
+        float: initial;
+    }
+    .text-box{
+    height: initial;
+    display: initial;
+    align-items: initial;
+    }
+    .text-box p{
+            margin-right: initial;
+                margin-left: initial;
+    }
+}
